@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Manual Proxy" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2he-qh-RYy">
+                                <rect key="frame" x="67" y="26" width="240" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="5Tp-n1-Q6N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Auto Proxy" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Ll-LH-Zwy">
+                                <rect key="frame" x="67" y="154" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4Qt-iz-0uB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Auto Proxy Alt" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="apb-48-bDZ">
+                                <rect key="frame" x="67" y="310" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="jGg-LR-K87"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Alt Proxy 2" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GKw-Tf-c4B">
+                                <rect key="frame" x="67" y="519" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="2pZ-QH-0OK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2he-qh-RYy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="N2g-sN-06K"/>
+                            <constraint firstItem="GKw-Tf-c4B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="RDO-sF-hKn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GKw-Tf-c4B" secondAttribute="bottom" constant="20" id="Rp7-Xs-Lgl"/>
+                            <constraint firstItem="apb-48-bDZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="Tox-j3-rna"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GKw-Tf-c4B" secondAttribute="trailing" constant="68" id="aoq-4j-dzH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ll-LH-Zwy" secondAttribute="trailing" constant="68" id="bGq-Tb-tqi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2he-qh-RYy" secondAttribute="trailing" constant="68" id="dF3-i3-rF1"/>
+                            <constraint firstItem="apb-48-bDZ" firstAttribute="top" secondItem="7Ll-LH-Zwy" secondAttribute="bottom" constant="28" id="hyK-Ff-ASs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="apb-48-bDZ" secondAttribute="trailing" constant="68" id="npf-bE-hVb"/>
+                            <constraint firstItem="7Ll-LH-Zwy" firstAttribute="top" secondItem="2he-qh-RYy" secondAttribute="bottom" constant="8" id="olT-k6-5ip"/>
+                            <constraint firstItem="7Ll-LH-Zwy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="uVk-Gj-RYO"/>
+                            <constraint firstItem="2he-qh-RYy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="ubB-72-IZv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="randLabel1" destination="2he-qh-RYy" id="r2k-Cr-Dpz"/>
+                        <outlet property="randLabel2" destination="7Ll-LH-Zwy" id="Mj0-Oc-7JC"/>
+                        <outlet property="randLabel3" destination="apb-48-bDZ" id="tjU-5l-MY0"/>
+                        <outlet property="randLabel4" destination="GKw-Tf-c4B" id="QOd-dZ-VV1"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="kLF-pe-xsV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
