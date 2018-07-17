@@ -8,3 +8,5 @@
 * Open the project using XCode
 * Configure Apple Developer account in XCode if not configured already
 * Go to Product > Archive > Export (Ensure you select 'Generic iOS Device' in the device selection dropdown)
+
+### Sample IPA available under `GeneratedIPA` folder
